@@ -2,7 +2,9 @@
     "name": "culprit/satis",
     "homepage": "https://github.com/JanKalach/satis",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/JanKalach/model" }
+        { "type": "git", "url": "git@github.com/JanKalach/model" }
     ],
-    "require-all": true
+    "require-all": true,
+    "require-dependencies": true,
+    "require-dev-dependencies": true
 }
