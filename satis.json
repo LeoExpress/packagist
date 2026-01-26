@@ -1,0 +1,10 @@
+{
+    "name": "Moje firemní balíčky",
+    "homepage": "https://tvoje-jmeno.github.io/muj-composer-repo",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/tvoje-jmeno/balicek-a" },
+        { "type": "vcs", "url": "https://github.com/tvoje-jmeno/balicek-b" },
+        { "type": "vcs", "url": "https://github.com/tvoje-jmeno/balicek-c" }
+    ],
+    "require-all": true
+}
