@@ -6,8 +6,10 @@
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-mail" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-model" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-panely" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-security" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-utils" },
-        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-velzon" }
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-velzon" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-web-project" }
     ],
     "require-all": true,
     "require-dependencies": true,
