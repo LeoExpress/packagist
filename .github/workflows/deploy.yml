@@ -39,9 +39,14 @@ jobs:
 
       - name: Delete old workflow runs
         run: |
-          runs=$(gh run list --workflow ${{ github.workflow }} --json databaseId  --limit 50 | jq -r '.[4:].databaseId')
-          for run in $runs; do
-            gh run delete "$run"
-          done
+          RUNS_TO_DELETE=$(gh run list --workflow "${{ github.workflow }}" --json databaseId --limit 100 | jq -r '.[4:].[] | .databaseId')
+          
+          if [ -z "$RUNS_TO_DELETE" ]; then
+            echo "Žádné staré runy k smazání."
+          else
+            for run_id in $RUNS_TO_DELETE; do
+              gh run delete "$run_id"
+            done
+          fi
         env:
           GH_TOKEN: ${{ github.token }}
