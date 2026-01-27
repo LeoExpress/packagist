@@ -2,7 +2,12 @@
     "name": "culprit/satis",
     "homepage": "https://jankalach.github.io/satis/",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/LeoExpress/packagist" }
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-config" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-mail" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-model" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-panely" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-utils" },
+        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-velzon" }
     ],
     "require-all": true,
     "require-dependencies": true,
