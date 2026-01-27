@@ -1,5 +1,5 @@
 {
-    "name": "LeoExpress/packagist",
+    "name": "culprit/satis",
     "homepage": "https://jankalach.github.io/satis/",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-config" },
