@@ -58,6 +58,9 @@
                 <optgroup label="Specific field...">
                     <option value="name">Name</option>
                     {% for fieldName, label in fieldsToToggle %}
+                        {% if fieldName == 'required-by' %}
+                            {% continue %}
+                        {% endif %}
                         <option value="{{ fieldName }}">{{ label }}</option>
                     {% endfor %}
                 </optgroup>
@@ -128,6 +131,9 @@
                             disabled>Show All</button>
                 </div>
                 {% for fieldName, label in fieldsToToggle %}
+                    {% if fieldName == 'required-by' %}
+                        {% continue %}
+                    {% endif %}
                     <div class="form-check form-check-inline">
                         <input
                                 id="toggle-field-{{ fieldName }}"
