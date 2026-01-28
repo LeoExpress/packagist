@@ -23,7 +23,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create output directory
-        run: mkdir -p output
+        run: |
+          mkdir -p output
+          cp -r layout/* output/layout/
 
       - name: Build Satis
         # Použijeme oficiální Satis obraz přímo v shellu, to lintery neprovokuje
