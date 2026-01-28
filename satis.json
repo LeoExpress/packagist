@@ -12,6 +12,5 @@
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-web-project" }
     ],
     "require-all": true,
-    "require-dependencies": true,
-    "require-dev-dependencies": true
+    "require-dependencies": true
 }
