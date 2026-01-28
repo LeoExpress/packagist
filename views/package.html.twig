@@ -104,19 +104,6 @@
                     {%- endif -%}
                 {% endfor %}
             </dd>
-
-            {% set package_dependencies = attribute(dependencies, name) %}
-
-            {% if package_dependencies and package_dependencies|length %}
-                <dt class="{{ col1_class }} field-required-by">Required by</dt>
-                <dd class="{{ col2_class }} field-required-by filter-by">
-                    <ul class="list-unstyled m-0">
-                        {% for dependency in package_dependencies %}
-                            <li><a href="#{{ dependency }}">{{ dependency }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </dd>
-            {% endif %}
         </dl>
     </div>
 </div>
