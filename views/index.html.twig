@@ -21,7 +21,7 @@
     <title>{{ name|default('Composer repository') }}</title>
 
     <style type="text/css">
-        {% include 'build/app.min.css' %}
+        {{ source('build/app.min.css') }}
         {% include 'build/style.css' %}
     </style>
 
