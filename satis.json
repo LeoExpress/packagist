@@ -1,6 +1,6 @@
 {
     "name": "culprit/satis",
-    "homepage": "https://leoexpress.github.io/composer/",
+    "homepage": "https://jankalach.github.io/satis/",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-config" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-mail" },
@@ -11,6 +11,5 @@
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-velzon" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-web-project" }
     ],
-    "require-all": true,
-    "require-dependencies": true
+    "require-all": true
 }
