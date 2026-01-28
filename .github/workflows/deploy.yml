@@ -25,7 +25,7 @@ jobs:
       - name: Create output directory
         run: |
           mkdir -p output
-          cp -r layout/* output/layout/
+#          cp -r layout/* output/layout/
 
       - name: Build Satis
         # Použijeme oficiální Satis obraz přímo v shellu, to lintery neprovokuje
