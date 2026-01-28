@@ -25,6 +25,7 @@ jobs:
       - name: Create output directory
         run: |
           mkdir -p output
+          mkdir -p output/assets
           cp -r views/assets/* output/assets/
 
       - name: Build Satis
