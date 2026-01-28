@@ -12,5 +12,5 @@
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-web-project" }
     ],
     "require-all": true,
-    "output-html": false
+    "output-html": true
 }
