@@ -4,7 +4,7 @@
     "repositories": [
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-config" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-mail" },
-        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-model" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-model" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-panely" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-security" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-utils" },
