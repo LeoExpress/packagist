@@ -14,6 +14,6 @@
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-web-project" }
     ],
     "require-all": true,
-    "output-html": false,
+    "output-html": true,
     "twig-template": "views/index.html.twig"
 }
