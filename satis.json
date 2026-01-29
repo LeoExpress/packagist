@@ -7,7 +7,7 @@
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-model" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-theme-panely" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-security" },
-        { "type": "vcs", "url": "https://github.com/JanKalach/packagist-utils" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-utils" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-velzon" },
         { "type": "vcs", "url": "https://github.com/JanKalach/packagist-web-project" }
     ],
