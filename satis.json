@@ -3,7 +3,9 @@
     "homepage": "https://leoexpress.github.io/packagist",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-config" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-logger" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-mail" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-migration" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-model" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-security" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-utils" },
