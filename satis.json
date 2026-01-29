@@ -1,6 +1,6 @@
 {
-    "name": "culprit/satis",
-    "homepage": "https://jankalach.github.io/satis",
+    "name": "leoexpress/packagist",
+    "homepage": "https://leoexpress.github.io/packagist",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-config" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-mail" },
