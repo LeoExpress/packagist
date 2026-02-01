@@ -1,0 +1,21 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$271db8ee5e0025c61236ff765312933a350a2d84.json": {
+            "sha1": "271db8ee5e0025c61236ff765312933a350a2d84"
+        }
+    },
+    "metadata-url": "/packagist/p2/%package%.json",
+    "available-packages": [
+        "leo/config",
+        "leo/logger",
+        "leo/mail",
+        "leo/migration",
+        "leo/model",
+        "leo/security",
+        "leo/utils",
+        "leo/web-project",
+        "leothemes/panely",
+        "leothemes/velzon"
+    ]
+}
