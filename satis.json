@@ -2,6 +2,7 @@
     "name": "leoexpress/packagist",
     "homepage": "https://leoexpress.github.io/packagist",
     "repositories": [
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-composer" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-config" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-logger" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-mail" },
