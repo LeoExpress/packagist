@@ -1,6 +1,5 @@
 # LeoExpress Packagist (Satis)
-
-<img src="img/orchestrator.png" height="50px" style="float: left;margin-right: 20px;">
+![LeoExpress Packagist](img/orchestrator.png)
 
 Tento repozitář slouží jako soukromý Composer repozitář pro balíčky **LeoExpress**. Využívá nástroj **Satis** ke generování statického seznamu balíčků, který je hostován na GitHub Pages.
 
