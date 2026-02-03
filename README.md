@@ -7,11 +7,15 @@ Tento repozitář slouží jako soukromý Composer repozitář pro balíčky **L
 
 1.  **Konfigurace**: Soubor `satis.json` obsahuje seznam všech PHP balíčků a konfiguraci výstupu.
 
-2.  **Automatizace**: GitHub Action (`deploy.yml`) se spouští automaticky každou hodinu, při pushi do větve `master` nebo ručně přes `workflow_dispatch`.
+2.  **Automatizace**: GitHub Action (`deploy.yml`) se spouští automaticky každou hodinu,
+    při pushi do větve `master` nebo ručně přes `workflow_dispatch`.
 
-3.  **Sestavení**: V rámci workflow se spouští Docker kontejner `composer/satis`, který využívá token `MY_SATIS_TOKEN` pro autentizaci vůči GitHub API.
+3.  **Sestavení**: V rámci workflow se spouští Docker kontejner `composer/satis`,
+    který využívá token `MY_SATIS_TOKEN` pro autentizaci vůči GitHub API.
 
-4.  **Deployment**: Výsledná metadata jsou publikována do větve `gh-pages`. Webové rozhraní je dostupné na adrese [https://leoexpress.github.io/packagist](https://leoexpress.github.io/packagist) definované v konfiguraci.
+4.  **Deployment**: Výsledná metadata jsou publikována do větve `gh-pages`.
+    Webové rozhraní je dostupné na adrese
+    [https://leoexpress.github.io/packagist](https://leoexpress.github.io/packagist) definované v konfiguraci.
 
 
 ## 📁 Struktura souborů
