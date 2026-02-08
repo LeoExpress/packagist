@@ -1,0 +1,70 @@
+{
+    "packages": {
+        "leo/logger": [
+            {
+                "name": "leo/logger",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-logger.git",
+                    "reference": "e34af29a053331437c9439adc9a417f85ac3c62a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-logger/zipball/e34af29a053331437c9439adc9a417f85ac3c62a",
+                    "reference": "e34af29a053331437c9439adc9a417f85ac3c62a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.9",
+                    "nette/di": "^3.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "nette/tester": "^2.5",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-29T10:33:51+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Václav Sukeník",
+                        "email": "vaclav.sukenik@le.cz"
+                    },
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "⛴ Leo Logger: Send specific operations to logger storage",
+                "keywords": [
+                    "dev-tools",
+                    "logger",
+                    "monitoring",
+                    "operations",
+                    "storage"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-logger/tree/v1.3.2",
+                    "issues": "https://github.com/LeoExpress/phpPkg-logger/issues"
+                }
+            }
+        ]
+    }
+}
