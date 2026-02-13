@@ -8,6 +8,7 @@
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-mail" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-migration" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-model" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-responses" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-security" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-utils" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-theme-panely" },
