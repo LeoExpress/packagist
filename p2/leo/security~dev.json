@@ -1,0 +1,71 @@
+{
+    "packages": {
+        "leo/security": [
+            {
+                "name": "leo/security",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-security.git",
+                    "reference": "2103e896671dbeffbccccc1dcabc6420a2ff9cba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-security/zipball/2103e896671dbeffbccccc1dcabc6420a2ff9cba",
+                    "reference": "2103e896671dbeffbccccc1dcabc6420a2ff9cba",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/oauth2-client": "^0.3",
+                    "ext-curl": "*",
+                    "ext-pdo": "*",
+                    "firebase/php-jwt": "^7.0",
+                    "nette/di": "^3.0",
+                    "nette/security": "^3.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1 <8.5",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "@stable",
+                    "nette/application": "@stable",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-29T12:37:04+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Security\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔐 Leo Security: Authentication using MS Account, Authorization using authorization LE",
+                "keywords": [
+                    "access-control",
+                    "authentication",
+                    "authorization",
+                    "azure-ad",
+                    "leo-security",
+                    "microsoft-account",
+                    "ms-auth",
+                    "oauth2",
+                    "security"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-security/tree/master",
+                    "issues": "https://github.com/LeoExpress/phpPkg-security/issues"
+                }
+            }
+        ]
+    }
+}

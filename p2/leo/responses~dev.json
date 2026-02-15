@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "leo/responses": [
+            {
+                "name": "leo/responses",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-responses.git",
+                    "reference": "5264bf802486804f1106b6f64b4e7f10a395323f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-responses/zipball/5264bf802486804f1106b6f64b4e7f10a395323f",
+                    "reference": "5264bf802486804f1106b6f64b4e7f10a395323f",
+                    "shasum": ""
+                },
+                "require": {
+                    "nette/application": "^3.2",
+                    "php": ">8.1"
+                },
+                "time": "2026-02-13T11:55:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "assets-files": "assets/"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Responses\\": "src"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Ondřej Topinka",
+                        "email": "ondrej.topinka@le.cz"
+                    }
+                ],
+                "description": "description",
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-responses/tree/v1.0.0",
+                    "issues": "https://github.com/LeoExpress/phpPkg-responses/issues"
+                }
+            }
+        ]
+    }
+}

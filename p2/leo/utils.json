@@ -1,0 +1,448 @@
+{
+    "packages": {
+        "leo/utils": [
+            {
+                "name": "leo/utils",
+                "version": "v1.5.10",
+                "version_normalized": "1.5.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "b591bafd4b684e20ddcaae812b0b2267a046b292"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/b591bafd4b684e20ddcaae812b0b2267a046b292",
+                    "reference": "b591bafd4b684e20ddcaae812b0b2267a046b292",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "stevenmaguire/oauth2-microsoft": "^2.2",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8",
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "contributte/scheduler": "^0.8.0",
+                    "contributte/translation": "^2.0",
+                    "leo/security": "^1.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-29T10:45:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Utils: Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "common-library",
+                    "design-patterns",
+                    "extensions",
+                    "factories",
+                    "helpers",
+                    "leo-utils",
+                    "utilities",
+                    "utils",
+                    "web-project"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.10",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            },
+            {
+                "name": "leo/utils",
+                "version": "v1.5.11",
+                "version_normalized": "1.5.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "deced1b82e065075a3056798368b594b7e2e791f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/deced1b82e065075a3056798368b594b7e2e791f",
+                    "reference": "deced1b82e065075a3056798368b594b7e2e791f",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "stevenmaguire/oauth2-microsoft": "^2.2",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "contributte/scheduler": "^0.8.0",
+                    "contributte/translation": "^2.0",
+                    "leo/security": "^1.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-02-02T11:29:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Utils: Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "common-library",
+                    "design-patterns",
+                    "extensions",
+                    "factories",
+                    "helpers",
+                    "leo-utils",
+                    "utilities",
+                    "utils",
+                    "web-project"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.11",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            },
+            {
+                "name": "leo/utils",
+                "version": "v1.5.6",
+                "version_normalized": "1.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "d05beed33adbf0686f511447f6021879a2895740"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/d05beed33adbf0686f511447f6021879a2895740",
+                    "reference": "d05beed33adbf0686f511447f6021879a2895740",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8",
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2025-12-15T09:12:55+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.6",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            },
+            {
+                "name": "leo/utils",
+                "version": "v1.5.7",
+                "version_normalized": "1.5.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "435ea92f52ebd67e5ebcfdd3ff28505281ee68fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/435ea92f52ebd67e5ebcfdd3ff28505281ee68fe",
+                    "reference": "435ea92f52ebd67e5ebcfdd3ff28505281ee68fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "stevenmaguire/oauth2-microsoft": "^2.2",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8",
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "contributte/scheduler": "^0.8.0",
+                    "contributte/translation": "^2.0",
+                    "leo/security": "^3.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2025-12-31T12:16:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src",
+                        "Leo\\MailerOne\\": "src/Mailer"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Utils: Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.7",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            },
+            {
+                "name": "leo/utils",
+                "version": "v1.5.8",
+                "version_normalized": "1.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "c8c8bde61c112fe473045fa251fe9deb76744b27"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/c8c8bde61c112fe473045fa251fe9deb76744b27",
+                    "reference": "c8c8bde61c112fe473045fa251fe9deb76744b27",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "stevenmaguire/oauth2-microsoft": "^2.2",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8",
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "contributte/scheduler": "^0.8.0",
+                    "contributte/translation": "^2.0",
+                    "leo/security": "^3.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-13T15:29:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Utils: Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.8",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            },
+            {
+                "name": "leo/utils",
+                "version": "v1.5.9",
+                "version_normalized": "1.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-utils.git",
+                    "reference": "11be79f61bdfc23fbdf49331330a7ee26ce58050"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-utils/zipball/11be79f61bdfc23fbdf49331330a7ee26ce58050",
+                    "reference": "11be79f61bdfc23fbdf49331330a7ee26ce58050",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-intl": "*",
+                    "ext-pdo": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "robmorgan/phinx": "^0.16.0",
+                    "stevenmaguire/oauth2-microsoft": "^2.2",
+                    "tracy/tracy": "^2.10"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8",
+                    "contributte/menu-control": "^3.2",
+                    "contributte/pdf": "^7.0",
+                    "contributte/scheduler": "^0.8.0",
+                    "contributte/translation": "^2.0",
+                    "leo/security": "^3.0",
+                    "nette/application": ">3.2",
+                    "nette/forms": ">3.2",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.4",
+                    "phpoffice/phpspreadsheet": "^5.0",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-26T14:31:51+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Utils: Utilities, factories, extensions for web-project.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-utils/tree/v1.5.9",
+                    "issues": "https://github.com/LeoExpress/phpPkg-utils/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,647 @@
+{
+    "packages": {
+        "leo/model": [
+            {
+                "name": "leo/model",
+                "version": "v1.6.13",
+                "version_normalized": "1.6.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "4378b33cfb282119774ab05daeb9e6a0f7e70643"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/4378b33cfb282119774ab05daeb9e6a0f7e70643",
+                    "reference": "4378b33cfb282119774ab05daeb9e6a0f7e70643",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nikic/php-parser": "^5.3",
+                    "php": ">=8.1 <8.5"
+                },
+                "require-dev": {
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-01-05T14:29:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v1.6.13",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v1.6.14",
+                "version_normalized": "1.6.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "5ac2a5ad0f58648856ee1d7bc97294bf7a57d8bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/5ac2a5ad0f58648856ee1d7bc97294bf7a57d8bc",
+                    "reference": "5ac2a5ad0f58648856ee1d7bc97294bf7a57d8bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nikic/php-parser": "^5.3",
+                    "php": ">=8.1 <8.5"
+                },
+                "require-dev": {
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-11T11:09:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ],
+                    "psr-4": {
+                        "Leo\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v1.6.14",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "946fe7c603376d8f60e1b86cd640e7303197afe6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/946fe7c603376d8f60e1b86cd640e7303197afe6",
+                    "reference": "946fe7c603376d8f60e1b86cd640e7303197afe6",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-01-28T14:41:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.0",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "290123647b7d42ecce6fcaa79ab22a67214c5e05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/290123647b7d42ecce6fcaa79ab22a67214c5e05",
+                    "reference": "290123647b7d42ecce6fcaa79ab22a67214c5e05",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-04T17:13:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.1",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "43583167e9876690bcecf7164772573a6ac139c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/43583167e9876690bcecf7164772573a6ac139c4",
+                    "reference": "43583167e9876690bcecf7164772573a6ac139c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-06T06:41:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.2",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "8c9a89f3397def8acbaa2850275ef23c4378f4eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/8c9a89f3397def8acbaa2850275ef23c4378f4eb",
+                    "reference": "8c9a89f3397def8acbaa2850275ef23c4378f4eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-07T09:36:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.3",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "17940643e724dfff2732e49fac6bc282db06031b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/17940643e724dfff2732e49fac6bc282db06031b",
+                    "reference": "17940643e724dfff2732e49fac6bc282db06031b",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-09T13:15:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.4",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "195e1e9b226f7006ab1d994f648d92dbb8134ee3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/195e1e9b226f7006ab1d994f648d92dbb8134ee3",
+                    "reference": "195e1e9b226f7006ab1d994f648d92dbb8134ee3",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-10T16:26:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.5",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            },
+            {
+                "name": "leo/model",
+                "version": "v2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-model.git",
+                    "reference": "47731939f515caf30a73edf3613221b68241bad2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-model/zipball/47731939f515caf30a73edf3613221b68241bad2",
+                    "reference": "47731939f515caf30a73edf3613221b68241bad2",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/console": "^0.10",
+                    "contributte/scheduler": "^0.8.0",
+                    "ext-fileinfo": ">=0.1.0",
+                    "ext-pdo": "*",
+                    "nette/database": "^3.2 || ^4",
+                    "nette/di": "^3.2",
+                    "nette/php-generator": "^4.1",
+                    "nette/schema": "^1.3",
+                    "nikic/php-parser": "^5.3",
+                    "php": "8.3 - 8.5"
+                },
+                "require-dev": {
+                    "ext-pdo_mysql": "*",
+                    "ext-pdo_pgsql": "*",
+                    "friendsofphp/php-cs-fixer": "^3.89",
+                    "mockery/mockery": "^1.6",
+                    "nette/bootstrap": "^3.2",
+                    "nette/http": "^3.3",
+                    "nette/security": "^3.2",
+                    "nette/tester": "^2.5",
+                    "nette/utils": "^4.0",
+                    "phpstan/phpstan-nette": "^2.0",
+                    "tracy/tracy": "^2.10"
+                },
+                "time": "2026-02-12T09:15:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\MF\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🗃 Leo Model: Simple way to communicate with database.",
+                "keywords": [
+                    "active-record",
+                    "data-access",
+                    "database",
+                    "db-wrapper",
+                    "leo-model",
+                    "model",
+                    "orm",
+                    "query-builder"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-model/tree/v2.0.6",
+                    "issues": "https://github.com/LeoExpress/phpPkg-model/issues"
+                }
+            }
+        ]
+    }
+}

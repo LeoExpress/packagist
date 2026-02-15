@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "leo/composer": [
+            {
+                "name": "leo/composer",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-composer.git",
+                    "reference": "979fc99fc00755d1114dc782aa94905cbebef9b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-composer/zipball/979fc99fc00755d1114dc782aa94905cbebef9b3",
+                    "reference": "979fc99fc00755d1114dc782aa94905cbebef9b3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8"
+                },
+                "time": "2026-02-03T06:51:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Composer\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Composer: Repository management, Composer plugins.",
+                "keywords": [
+                    "composer",
+                    "extensions",
+                    "helpers",
+                    "plugin",
+                    "repository"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-composer/tree/v1.0.0",
+                    "issues": "https://github.com/LeoExpress/phpPkg-composer/issues"
+                }
+            }
+        ]
+    }
+}

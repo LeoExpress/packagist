@@ -1,0 +1,75 @@
+{
+    "packages": {
+        "leo/migration": [
+            {
+                "name": "leo/migration",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-migration.git",
+                    "reference": "1972cd80d074f17b655c250528811d6a9339920b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-migration/zipball/1972cd80d074f17b655c250528811d6a9339920b",
+                    "reference": "1972cd80d074f17b655c250528811d6a9339920b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pdo": "*",
+                    "nette/bootstrap": "^3.2",
+                    "nette/neon": "^3.4",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.3",
+                    "robmorgan/phinx": "^0.16.0",
+                    "symfony/console": "^6.0|^7.0",
+                    "tracy/tracy": "^v2.10"
+                },
+                "require-dev": {
+                    "nette/di": "^3.2",
+                    "nette/tester": "^2.5",
+                    "phpstan/phpstan-nette": "^2.0"
+                },
+                "suggest": {
+                    "ext-mysqldump": "Vyžadováno pro zálohování MySQL databáze. Zajistěte, že je nástroj 'mysqldump' dostupný v PATH.",
+                    "ext-pg_dump": "Vyžadováno pro zálohování PostgreSQL databáze. Zajistěte, že je nástroj 'pg_dump' dostupný v PATH."
+                },
+                "time": "2026-02-06T15:32:02+00:00",
+                "default-branch": true,
+                "bin": [
+                    "bin/migration"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Maintenance\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🚚 Leo Migration: Migrate source database to destination",
+                "keywords": [
+                    "leo-logger",
+                    "logger",
+                    "logging",
+                    "monitoring",
+                    "operations",
+                    "storage",
+                    "tracing"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-migration/tree/v1.0.2",
+                    "issues": "https://github.com/LeoExpress/phpPkg-migration/issues"
+                }
+            }
+        ]
+    }
+}
