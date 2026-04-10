@@ -1,0 +1,286 @@
+{
+    "packages": {
+        "leo/mail": [
+            {
+                "name": "leo/mail",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-mail.git",
+                    "reference": "aacaea11d6786e3dc7302ae69698d72558b50efb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-mail/zipball/aacaea11d6786e3dc7302ae69698d72558b50efb",
+                    "reference": "aacaea11d6786e3dc7302ae69698d72558b50efb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "leo/utils": "^4.0",
+                    "nette/di": "^3.2",
+                    "nette/mail": "^4.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "time": "2025-12-31T11:28:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Mailer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "📧 Leo Mail: A handy library for creating and sending emails trough Entra/Azure in PHP.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-mail/tree/v1.0.0",
+                    "issues": "https://github.com/LeoExpress/phpPkg-mail/issues"
+                }
+            },
+            {
+                "name": "leo/mail",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-mail.git",
+                    "reference": "d4d1eae3d9fcdae3f6c172d2aa2814e60a77842b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-mail/zipball/d4d1eae3d9fcdae3f6c172d2aa2814e60a77842b",
+                    "reference": "d4d1eae3d9fcdae3f6c172d2aa2814e60a77842b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "leo/utils": "^4.0",
+                    "nette/di": "^3.2",
+                    "nette/mail": "^4.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "time": "2026-01-05T16:47:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Mailer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "📧 Leo Mail: A handy library for creating and sending emails trough Entra/Azure in PHP.",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-mail/tree/v1.0.1",
+                    "issues": "https://github.com/LeoExpress/phpPkg-mail/issues"
+                }
+            },
+            {
+                "name": "leo/mail",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-mail.git",
+                    "reference": "7a8c4e59a37317f45947a60f2fa2f82e2502ec10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-mail/zipball/7a8c4e59a37317f45947a60f2fa2f82e2502ec10",
+                    "reference": "7a8c4e59a37317f45947a60f2fa2f82e2502ec10",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "leo/utils": "^1.0",
+                    "nette/di": "^3.2",
+                    "nette/mail": "^4.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "time": "2026-01-29T10:54:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Mailer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "📧 Leo Mail: A handy library for creating and sending emails trough Entra/Azure in PHP.",
+                "keywords": [
+                    "azure",
+                    "email-client",
+                    "entra-id",
+                    "mail",
+                    "microsoft-365",
+                    "microsoft-graph",
+                    "oauth2",
+                    "smtp-alternative"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-mail/tree/v1.0.2",
+                    "issues": "https://github.com/LeoExpress/phpPkg-mail/issues"
+                }
+            },
+            {
+                "name": "leo/mail",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-mail.git",
+                    "reference": "967dff7652dce01ec1af5b570f64710bd79362f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-mail/zipball/967dff7652dce01ec1af5b570f64710bd79362f3",
+                    "reference": "967dff7652dce01ec1af5b570f64710bd79362f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "leo/utils": "^1.0",
+                    "nette/di": "^3.2",
+                    "nette/mail": "^4.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "time": "2026-02-23T17:41:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Mailer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "📧 Leo Mail: A handy library for creating and sending emails trough Entra/Azure in PHP.",
+                "keywords": [
+                    "azure",
+                    "email-client",
+                    "entra-id",
+                    "mail",
+                    "microsoft-365",
+                    "microsoft-graph",
+                    "oauth2",
+                    "smtp-alternative"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-mail/tree/v1.0.3",
+                    "issues": "https://github.com/LeoExpress/phpPkg-mail/issues"
+                }
+            },
+            {
+                "name": "leo/mail",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-mail.git",
+                    "reference": "23f2352e60deb6ab2b9b5d79e17eea53557f33ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-mail/zipball/23f2352e60deb6ab2b9b5d79e17eea53557f33ef",
+                    "reference": "23f2352e60deb6ab2b9b5d79e17eea53557f33ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "guzzlehttp/guzzle": "^7.10",
+                    "latte/latte": ">=3.0.18",
+                    "leo/utils": "^1.0",
+                    "nette/di": "^3.2",
+                    "nette/mail": "^4.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "time": "2026-02-24T13:40:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Mailer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "📧 Leo Mail: A handy library for creating and sending emails trough Entra/Azure in PHP.",
+                "keywords": [
+                    "azure",
+                    "email-client",
+                    "entra-id",
+                    "mail",
+                    "microsoft-365",
+                    "microsoft-graph",
+                    "oauth2",
+                    "smtp-alternative"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-mail/tree/v1.0.4",
+                    "issues": "https://github.com/LeoExpress/phpPkg-mail/issues"
+                }
+            }
+        ]
+    }
+}

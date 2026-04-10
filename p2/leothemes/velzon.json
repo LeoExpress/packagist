@@ -1,0 +1,105 @@
+{
+    "packages": {
+        "leothemes/velzon": [
+            {
+                "name": "leothemes/velzon",
+                "version": "v1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-theme-velzon.git",
+                    "reference": "d0fcdc1947411f5a46d11e9cf57e35e89097fb19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-theme-velzon/zipball/d0fcdc1947411f5a46d11e9cf57e35e89097fb19",
+                    "reference": "d0fcdc1947411f5a46d11e9cf57e35e89097fb19",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "frontpack/composer-assets-plugin": "^0.11"
+                },
+                "time": "2026-01-05T16:52:05+00:00",
+                "type": "library",
+                "extra": {
+                    "assets-files": "src/"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Leo Theme - Velzon",
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-theme-velzon/tree/v1.0.7",
+                    "issues": "https://github.com/LeoExpress/phpPkg-theme-velzon/issues"
+                }
+            },
+            {
+                "name": "leothemes/velzon",
+                "version": "v1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-theme-velzon.git",
+                    "reference": "f640b809e41baab8d04daaa266f0770f52b49759"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-theme-velzon/zipball/f640b809e41baab8d04daaa266f0770f52b49759",
+                    "reference": "f640b809e41baab8d04daaa266f0770f52b49759",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "frontpack/composer-assets-plugin": "^0.11"
+                },
+                "time": "2026-01-23T15:49:03+00:00",
+                "type": "library",
+                "extra": {
+                    "assets-files": "src/"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Leo Theme - Velzon",
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-theme-velzon/tree/v1.0.8",
+                    "issues": "https://github.com/LeoExpress/phpPkg-theme-velzon/issues"
+                }
+            },
+            {
+                "name": "leothemes/velzon",
+                "version": "v1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-theme-velzon.git",
+                    "reference": "4f5cf46e0febcf1c880334dd94c04c814882af76"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-theme-velzon/zipball/4f5cf46e0febcf1c880334dd94c04c814882af76",
+                    "reference": "4f5cf46e0febcf1c880334dd94c04c814882af76",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "frontpack/composer-assets-plugin": "^0.11"
+                },
+                "time": "2026-02-20T12:31:56+00:00",
+                "type": "library",
+                "extra": {
+                    "assets-files": "src/"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Leo Theme - Velzon",
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-theme-velzon/tree/v1.0.9",
+                    "issues": "https://github.com/LeoExpress/phpPkg-theme-velzon/issues"
+                }
+            }
+        ]
+    }
+}

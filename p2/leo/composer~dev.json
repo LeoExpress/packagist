@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "leo/composer": [
+            {
+                "name": "leo/composer",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-composer.git",
+                    "reference": "657e7ec706151c9d6f4d36deabdf9e5ba20ec6e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-composer/zipball/657e7ec706151c9d6f4d36deabdf9e5ba20ec6e7",
+                    "reference": "657e7ec706151c9d6f4d36deabdf9e5ba20ec6e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.8"
+                },
+                "time": "2026-02-25T10:43:45+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Composer\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔧 Leo Composer: Repository management, Composer plugins.",
+                "keywords": [
+                    "composer",
+                    "extensions",
+                    "helpers",
+                    "plugin",
+                    "repository"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-composer/tree/v1.0.1",
+                    "issues": "https://github.com/LeoExpress/phpPkg-composer/issues"
+                }
+            }
+        ]
+    }
+}

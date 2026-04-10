@@ -1,0 +1,184 @@
+{
+    "packages": {
+        "leo/security": [
+            {
+                "name": "leo/security",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-security.git",
+                    "reference": "b66e86ccea98e1c9aa2cfda7f1d28876f9ebb0dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-security/zipball/b66e86ccea98e1c9aa2cfda7f1d28876f9ebb0dd",
+                    "reference": "b66e86ccea98e1c9aa2cfda7f1d28876f9ebb0dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/oauth2-client": "^0.3",
+                    "ext-curl": "*",
+                    "ext-pdo": "*",
+                    "nette/di": "^3.0",
+                    "nette/security": "^3.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1 <8.5",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "@stable",
+                    "nette/application": "@stable",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-12T14:54:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Security\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔐 Leo Security: Authentication using MS Account, Authorization using authorization LE",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-security/tree/v1.4.0",
+                    "issues": "https://github.com/LeoExpress/phpPkg-security/issues"
+                }
+            },
+            {
+                "name": "leo/security",
+                "version": "v1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-security.git",
+                    "reference": "36c608bdf16f97945416b1ace0428c57850d68f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-security/zipball/36c608bdf16f97945416b1ace0428c57850d68f4",
+                    "reference": "36c608bdf16f97945416b1ace0428c57850d68f4",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/oauth2-client": "^0.3",
+                    "ext-curl": "*",
+                    "ext-pdo": "*",
+                    "nette/di": "^3.0",
+                    "nette/security": "^3.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1 <8.5",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "@stable",
+                    "nette/application": "@stable",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-13T15:39:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Security\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔐 Leo Security: Authentication using MS Account, Authorization using authorization LE",
+                "keywords": [
+                    "composer",
+                    "interactive",
+                    "nette"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-security/tree/v1.4.1",
+                    "issues": "https://github.com/LeoExpress/phpPkg-security/issues"
+                }
+            },
+            {
+                "name": "leo/security",
+                "version": "v1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:LeoExpress/phpPkg-security.git",
+                    "reference": "0e79297fab667db4e4cb5eda39ea518502922e12"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/LeoExpress/phpPkg-security/zipball/0e79297fab667db4e4cb5eda39ea518502922e12",
+                    "reference": "0e79297fab667db4e4cb5eda39ea518502922e12",
+                    "shasum": ""
+                },
+                "require": {
+                    "contributte/oauth2-client": "^0.3",
+                    "ext-curl": "*",
+                    "ext-pdo": "*",
+                    "firebase/php-jwt": "^7.0",
+                    "nette/di": "^3.0",
+                    "nette/security": "^3.0",
+                    "nette/utils": "^4.0",
+                    "php": ">=8.1 <8.5",
+                    "stevenmaguire/oauth2-microsoft": "^2.2"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "@stable",
+                    "nette/application": "@stable",
+                    "phpstan/phpstan-nette": "^2.0@stable"
+                },
+                "time": "2026-01-28T14:41:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Leo\\Security\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Kalach",
+                        "email": "jan.kalach@le.cz"
+                    }
+                ],
+                "description": "🔐 Leo Security: Authentication using MS Account, Authorization using authorization LE",
+                "keywords": [
+                    "access-control",
+                    "authentication",
+                    "authorization",
+                    "azure-ad",
+                    "leo-security",
+                    "microsoft-account",
+                    "ms-auth",
+                    "oauth2",
+                    "security"
+                ],
+                "support": {
+                    "source": "https://github.com/LeoExpress/phpPkg-security/tree/v1.4.2",
+                    "issues": "https://github.com/LeoExpress/phpPkg-security/issues"
+                }
+            }
+        ]
+    }
+}
