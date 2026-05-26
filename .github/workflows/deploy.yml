@@ -23,9 +23,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Clean output directory
-        run: rm -rf output
-
       - name: Checkout Satis configuration
         uses: actions/checkout@v5
 
