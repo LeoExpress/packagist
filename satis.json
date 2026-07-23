@@ -12,6 +12,7 @@
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-security" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-utils" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-user-management" },
+        { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-playwright" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-theme-panely" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-theme-velzon" },
         { "type": "vcs", "url": "https://github.com/LeoExpress/phpPkg-web-project" }
