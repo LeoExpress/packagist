@@ -22,6 +22,6 @@
     "output-html": true,
     "twig-template": "views/index.html.twig",
     "abandoned": {
-        "leo/security": true
+        "leo/security": "leo/user-management"
     }
 }
